@@ -1,0 +1,20 @@
+schema{
+
+	query:Query
+	
+}
+
+
+type Query{
+
+ employee: Employee
+ 
+}
+
+type Employee{
+
+	id: String
+	name: String
+	address: String
+	
+}
